@@ -11,8 +11,24 @@
     <button onclick="populateTodos()">Populate Todos</button>
     
     <button onclick="getarray()">userid</button> 
-    <input id="number" type="number">
-    
+    <select name="numUser" id="number">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+
+    <button onclick="removeelements()">Clear Single</button> 
+    <button onclick="removelist()">Clear All</button> 
+    <button onclick="completedtask()">Completed</button> 
+    <button onclick="uncompletedtask()">Uncompleted</button> 
+
     <ol id="todo-list">
     <!-- LIs will go here -->
     </ol>    
